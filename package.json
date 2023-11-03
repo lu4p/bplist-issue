@@ -1,0 +1,20 @@
+{
+  "name": "bplist-issue",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings=ExperimentalWarning --loader ts-node/esm/transpile-only main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "playwright": "^1.39.0"
+  }
+}
